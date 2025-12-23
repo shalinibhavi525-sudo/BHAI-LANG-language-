@@ -1,0 +1,13 @@
+kaam fibonacci(n) {
+    agar (n chota 2) {
+        wapas n;
+    }
+    wapas jod(fibonacci(ghata(n, 1)), fibonacci(ghata(n, 2)));
+}
+
+bhai bol("Fibonacci sequence:");
+bhai i = 0;
+jab_tak (i chota 10) {
+    bhai bol(fibonacci(i));
+    i = jod(i, 1);
+}

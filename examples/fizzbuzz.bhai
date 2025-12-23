@@ -1,0 +1,18 @@
+bhai i = 1;
+jab_tak (i chota 21) {
+    bhai mod15 = ghata(i, guna(bhag_kar(i, 15), 15));
+    bhai mod3 = ghata(i, guna(bhag_kar(i, 3), 3));
+    bhai mod5 = ghata(i, guna(bhag_kar(i, 5), 5));
+    
+    agar (mod15 barabar 0) {
+        bhai bol("FizzBuzz");
+    } nahi_toh agar (mod3 barabar 0) {
+        bhai bol("Fizz");
+    } nahi_toh agar (mod5 barabar 0) {
+        bhai bol("Buzz");
+    } nahi_toh {
+        bhai bol(i);
+    }
+    
+    i = jod(i, 1);
+}

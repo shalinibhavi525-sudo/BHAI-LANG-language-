@@ -1,0 +1,11 @@
+kaam greet(naam) {
+    bhai bol("Namaste, ");
+    bhai bol(naam);
+    bhai bol(" bhai!");
+}
+
+greet("Shambhavi");
+greet("Rahul");
+greet("Priya");
+```
+

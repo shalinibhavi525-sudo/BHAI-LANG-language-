@@ -1,0 +1,17 @@
+bhai a = 10;
+bhai b = 5;
+
+bhai bol("Calculator Bhai-Lang Style! 🧮");
+bhai bol("a = 10, b = 5");
+
+bhai bol("Addition (jod):");
+bhai bol(jod(a, b));
+
+bhai bol("Subtraction (ghata):");
+bhai bol(ghata(a, b));
+
+bhai bol("Multiplication (guna):");
+bhai bol(guna(a, b));
+
+bhai bol("Division (bhag_kar):");
+bhai bol(bhag_kar(a, b));
